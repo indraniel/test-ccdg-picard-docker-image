@@ -61,6 +61,6 @@ See the following links:
 
 [0]: http://genome.wustl.edu
 [1]: https://mixablehodgepodge.blogspot.com/2016/10/docker-install-docker-on-apples-macos.html
-[2]: http://mixablehodgepodge.blogspot.com/2016/10/docker-basic-usage.html
-[3]: http://mixablehodgepodge.blogspot.com/2016/10/docker-updating-docker-installation-on.html
+[2]: https://mixablehodgepodge.blogspot.com/2016/10/docker-basic-usage.html
+[3]: https://mixablehodgepodge.blogspot.com/2016/10/docker-updating-docker-installation-on.html
 [4]: https://www.genome.gov/27563570/
