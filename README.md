@@ -17,17 +17,17 @@ See the following links:
 2. `docker build -t ccdg-picard-test:v1 . `
 3. `docker images`
     
-    REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-    ccdg-picard-test    v1                  4b08fd89fe5e        2 minutes ago       879.5 MB
-    ubuntu              14.04               1e0c3dd64ccd        12 days ago         187.9 MB
+        REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+        ccdg-picard-test    v1                  4b08fd89fe5e        2 minutes ago       879.5 MB
+        ubuntu              14.04               1e0c3dd64ccd        12 days ago         187.9 MB
     
 4. `docker tag 4b08fd89fe5e indraniel/ccdg-picard-test:v1`
 5. `docker images`
     
-    REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
-    ccdg-picard-test             v1                  4b08fd89fe5e        4 minutes ago       879.5 MB
-    indraniel/ccdg-picard-test   v1                  4b08fd89fe5e        4 minutes ago       879.5 MB
-    ubuntu                       14.04               1e0c3dd64ccd        12 days ago         187.9 MB
+        REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+        ccdg-picard-test             v1                  4b08fd89fe5e        4 minutes ago       879.5 MB
+        indraniel/ccdg-picard-test   v1                  4b08fd89fe5e        4 minutes ago       879.5 MB
+        ubuntu                       14.04               1e0c3dd64ccd        12 days ago         187.9 MB
     
 6. `docker login`
 7. `docker push indraniel/ccdg-picard-test`
