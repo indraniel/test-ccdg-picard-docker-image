@@ -35,7 +35,7 @@ See the following links:
 ## Notes
 
 * Ensure that you have included the `libnss-sss` package; otherwise, you won't be able to properly access LDAP and the networked file system at the MGI.
-* CCDG related software is currently located at: //bitbucket.org/idas/ccdg-apt-repo
+* CCDG related software is currently located at: https://bitbucket.org/idas/ccdg-apt-repo
 * you may need to wait a few moments for docker hub to accept and make your image available to the public after its been successfully pushed
 
 
