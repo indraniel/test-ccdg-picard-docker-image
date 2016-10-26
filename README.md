@@ -1,3 +1,13 @@
+This is a simple repo to test out software and workflows that will be used by the [MGI][0] for the [CCDG][4] project.
+
+# Phase 0: Getting started with Docker
+
+See the following links:
+
+1.  [installing docker on macOS][1]
+2.  [basic docker usage][2]
+3.  [keeping your docker installation up to date on macOS][3]
+
 # Phase 1: On macOS
 
 ## Workflow
@@ -48,3 +58,9 @@
 ### Try out a script in this git repo
 
 5. `bash -x test.sh`
+
+[0]: http://genome.wustl.edu
+[1]: https://mixablehodgepodge.blogspot.com/2016/10/docker-install-docker-on-apples-macos.html
+[2]: http://mixablehodgepodge.blogspot.com/2016/10/docker-basic-usage.html
+[3]: http://mixablehodgepodge.blogspot.com/2016/10/docker-updating-docker-installation-on.html
+[4]: https://www.genome.gov/27563570/
