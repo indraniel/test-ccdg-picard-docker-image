@@ -39,8 +39,7 @@ See the following links:
 * you may need to wait a few moments for docker hub to accept and make your image available to the public after its been successfully pushed
 
 
-# Phase 2: On a MGI workstation
-
+# Phase 2: On a MGI LSF client
 ## Workflow 
 
 0. `git clone https://github.com/indraniel/test-ccdg-picard-docker-image`
