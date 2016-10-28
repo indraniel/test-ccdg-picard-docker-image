@@ -58,6 +58,14 @@ See the following links:
 
 5. `bash -x test.sh`
 
+## Notes
+
+When running Docker on an MGI LSF client, you're really invoking `docker run` via a shell wrapper.  The shell wrapper will:
+
+1. Preserve the MGI bash environment you had before you invoked `bsub`
+2. Shares NFS volumes (includes `/gscuser`; implies that your `/gscuser/<id>/.bashrc` profile gets invoked)
+3. Adds a `-v /var/lib/sshd:/var/lib/sshd` to the docker run command.  This allows for a shared pipe for user id stuff.
+
 [0]: http://genome.wustl.edu
 [1]: https://mixablehodgepodge.blogspot.com/2016/10/docker-install-docker-on-apples-macos.html
 [2]: https://mixablehodgepodge.blogspot.com/2016/10/docker-basic-usage.html
