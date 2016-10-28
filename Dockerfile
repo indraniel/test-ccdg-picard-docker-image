@@ -14,4 +14,5 @@ RUN apt-get update -qq && \
     libnss-sss \
     ccdg-picard-2.4.1 \
     cowsay \
-    --no-install-recommends
+    --no-install-recommends && \
+    apt-get clean all
