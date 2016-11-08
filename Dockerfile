@@ -10,7 +10,7 @@ VOLUME /release
 # fewer image layers are better / smaller
 RUN apt-get update -qq && \
     apt-get -y install apt-transport-https && \
-    echo "deb [trusted=yes] https://bitbucket.org/idas/ccdg-apt-repo/raw/master ccdg main" | tee -a /etc/apt/sources.list && \
+    echo "deb [trusted=yes] https://gitlab.com/indraniel/ccdg-apt-repo/raw/master ccdg main" | tee -a /etc/apt/sources.list && \
     apt-get update -qq && \
     apt-get -y install \
     libnss-sss \
